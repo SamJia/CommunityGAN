@@ -1,4 +1,4 @@
-# CommunitGAN
+# CommunityGAN
 
 - This repository is the implementation of CommunityGAN:
 > CommunityGAN: Community Detection with Generative Adversarial Nets
@@ -33,7 +33,7 @@ The basic usage of CommunityGAN is as follow:
 ```cd src/CommunityGAN```  
 ```python community_gan.py```
 
-The parameters for CommunityGAN can be changed by editing `src/CommunityGAN/config.py` or passing through command line. An example for running CommunityGAN on the three datasets are written in `scripts/run.py`, which can be called by:
+The parameters for CommunityGAN can be changed by editing `src/CommunityGAN/config.py` or passing through the command line. An example of running CommunityGAN on the three datasets are written in `scripts/run.py`, which can be called by:
 
 ```cd scripts```  
 ```python run.py```
